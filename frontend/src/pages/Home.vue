@@ -3,7 +3,7 @@
     <h2 class="font-bold text-lg text-gray-600 mb-4">
       Welcome {{ session.user }}!
     </h2>
-
+<h1>hai</h1>
     <Button theme="gray" variant="solid" icon-left="code" @click="ping.fetch" :loading="ping.loading">
       Click to send 'ping' request
     </Button>
